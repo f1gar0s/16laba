@@ -1,0 +1,131 @@
+/**
+ * Стили для редактора учебного курса.
+ */
+.thumb-info {
+	position: relative;
+}
+
+.thumb-info .thumb-info-title {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	background: rgba(36, 27, 28, 0.9);
+	bottom: 10%;
+	color: #FFF;
+	font-size: 1.1em;
+	max-width: 80%;
+	font-weight: 700;
+	left: 0;
+	letter-spacing: -1px;
+	padding: 9px 11px 9px;
+	position: absolute;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	z-index: 2;
+}
+
+.thumb-info .thumb-info-inner {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	display: block;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.thumb-info .thumb-info-type {
+	background-color: #0081c7;
+	border-radius: 2px;
+	display: inline-block;
+	float: left;
+	font-size: 0.8em;
+	font-weight: 400;
+	letter-spacing: 0;
+	margin: 8px -2px -15px -2px;
+	padding: 2px 9px;
+	text-transform: none;
+}
+.img-fluid {
+	object-fit: cover;
+	opacity: 0.78;
+}
+.img-hover{
+	width: 100%;
+	background-color: #676767;
+}
+.profile-user-card-block, .profile-user-card-blokc--image{
+	border-radius: 5px 5px 0px 0px;
+}
+.profile-user-card-setting--button{
+
+	border-radius: 0px 0px 5px 5px;
+}
+.social-link li{
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+}
+.social-link li a{
+	font-size: 1.4em;
+}
+.profile-schedule-widget--day .profile-schedule--day{
+	border-right: 4px dotted #fe9365;
+}
+@media screen and (max-width: 768px) {
+	.profile-schedule-widget--day .profile-schedule--day {
+		border-right: none;
+		border-bottom: 2px dotted #fe9365 !important
+	}
+	.profile-schedule-widget--day .profile-schedule--lesson--time,
+	.profile-schedule-widget--day .profile-schedule--lesson--place
+	{
+		margin-bottom: 0.5rem!important;
+	}
+}
+.profile-schedule-widget--day .profile-schedule--lesson:first-child{
+	border-top: none !important;
+}
+.profile-schedule-widget--day .profile-schedule--lesson{
+	border-top: 2px dotted #ddd !important
+}
+.bg-primary h5{
+	color: #fff !important;
+}
+.bg-primary .text-muted{
+	color: #fff !important;
+	opacity: 0.37;
+}
+.bg-primary .text-muted:hover{
+	color: #fff !important;
+	opacity: 1;
+}
+.bg-primary a{
+	color: rgba(255,255,255,1) !important;
+}
+.bg-primary a:hover{
+	color: #fe9365 !important;
+}
+.badge-inverse-white{
+	color: #fff;
+	border: 1px solid;
+	border-color: #fff;
+	background-color: transparent;
+}
+.label-inverse-white{
+	color: #fff;
+	border: 1px solid;
+	border-color: #fff;
+	background-color: transparent;
+}
+
+.block.BREADCRUMB{
+	display: none;
+}
+
+.btn-outline-white {
+	color: #ffffff;
+	border-color: #ffffff;
+	background-color: transparent;
+}
